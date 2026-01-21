@@ -1,6 +1,3 @@
-
-# AI-Assisted ECG Diagnosis
-
 <img width="1480" height="480" alt="ChatGPT Image Jan 21, 2026, 11_53_33 AM" src="https://github.com/user-attachments/assets/8c8a6624-3377-4f18-8f0d-accb85a9afff" />
 
 🚧 **Work in Progress**  
