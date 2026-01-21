@@ -1,6 +1,8 @@
 
 # AI-Assisted-ECG-Diagnosis
 
+"C:\Users\Fluxtech\Downloads\ChatGPT Image Jan 21, 2026, 11_46_06 AM.png"
+
 ## Project Overview
 AI-Assisted-ECG-Diagnosis is a multimodal AI system that leverages both deep learning models and fine-tuned large language models (LLMs) to assist in the diagnosis of ECG signals. The system is designed to analyze ECG data for rhythm and ischemia detection, providing reliable and accurate results for cardiologists. The system is powered by a combination of advanced deep learning models and LLMs, aiming to integrate and reason like a cardiologist.
 
