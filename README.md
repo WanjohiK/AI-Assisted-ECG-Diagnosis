@@ -1,49 +1,40 @@
 
 # AI-Assisted-ECG-Diagnosis
 
-## Overview
-AI-Assisted-ECG-Diagnosis is a machine learning and deep learning project aimed at diagnosing heart conditions from ECG data using artificial intelligence. This project leverages raw ECG signals, biological data such as age and sex, and applies various models to classify ECG signals into diagnostic categories.
+## Project Overview
+AI-Assisted-ECG-Diagnosis is a multimodal AI system that leverages both deep learning models and fine-tuned large language models (LLMs) to assist in the diagnosis of ECG signals. The system is designed to analyze ECG data for rhythm and ischemia detection, providing reliable and accurate results for cardiologists. The system is powered by a combination of advanced deep learning models and LLMs, aiming to integrate and reason like a cardiologist.
 
-## Project Status
-This project is still under development and is not finalized yet. The current notebook includes data loading, preprocessing, feature extraction, and some initial models. Future iterations will improve model accuracy and explore additional techniques like deep learning.
+## Goal
+The final goal is to create a comprehensive AI system capable of:
+- Reasoning like a cardiologist using fine-tuned LLMs
+- Detecting rhythm abnormalities and ischemia in ECG signals using deep learning models
+- Integrating retrieval-augmented generation (RAG) for enhanced AI-assisted reasoning
+- Developing an intuitive user interface to present diagnostic results effectively
 
-## Features
-- **ECG Signal Processing**: Uses raw ECG signal data, along with biological features such as age and sex, to predict diagnostic results.
-- **Multi-Class Classification**: The system is designed to classify ECG signals into multiple diagnostic classes.
-- **Deep Learning**: Implements models like LSTM and CNN for analyzing ECG signals.
-- **Data Preprocessing**: Includes data cleaning, feature extraction, and handling imbalanced data with techniques like SMOTE.
+## Technologies Used
+- **Deep Learning**: Models for ECG rhythm and ischemia detection.
+- **Fine-Tuned LLMs**: Models to reason like a cardiologist.
+- **Retrieval-Augmented Generation (RAG)**: Integration for reasoning with external knowledge.
+- **User Interface**: Designed to present results and assist in diagnosis.
+- **Python Libraries**:
+    - TensorFlow/Keras (Deep Learning models)
+    - Hugging Face (Fine-tuning LLMs)
+    - scikit-learn (Data Processing, Evaluation)
+    - OpenCV/Streamlit (UI development)
 
-## Requirements
-- Python 3.x
-- Libraries:
-  - pandas
-  - numpy
-  - sklearn
-  - tensorflow
-  - imbalanced-learn
-  - xgboost
-  - wfdb (for ECG data processing)
-
-## Getting Started
-1. Clone or download the repository.
-2. Install the required libraries by running:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Load the dataset (ECG signals, annotations, etc.) into the project directory.
-4. Follow the instructions in the Jupyter notebook to run the code.
-
-## Usage
-Run the provided Jupyter notebook to:
-- Load and preprocess ECG signal data.
-- Train machine learning and deep learning models.
-- Evaluate model performance with various metrics.
+## Project Workflow
+1. **Data Preprocessing**: Raw ECG data is preprocessed and labeled using cardiology-specific diagnostic guidelines.
+2. **Deep Learning Models**: Trained models for rhythm and ischemia detection using advanced deep learning techniques.
+3. **LLM Fine-Tuning**: Fine-tuned large language models to mimic cardiologist reasoning for diagnostics.
+4. **RAG Integration**: Used for enhanced reasoning by integrating retrieval-augmented generation capabilities.
+5. **User Interface**: Developed an intuitive UI to interact with the diagnostic models.
 
 ## Future Work
-- Improve the deep learning models for better classification accuracy.
-- Experiment with other types of machine learning models.
-- Integrate more sophisticated signal processing techniques.
-- Expand the dataset and include more diagnostic labels.
+- Further fine-tuning LLMs for better diagnostic accuracy
+- Real-time ECG signal processing
+- Integration with hospital systems for real-world use
+- Continuous learning with new ECG datasets
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
